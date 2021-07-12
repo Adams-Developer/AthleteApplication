@@ -54,13 +54,14 @@ button.accept-policy {
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+      min-height: 100%;
+
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
 }
 .footer {
   position: absolute;
@@ -68,4 +69,25 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+}
+
+/* Index */
+
+.background-image {
+    /* The image used */
+    background-image: url("../images/stadium-background.jpg");
+    /* Full height */
+    min-height: 1000px;
+    min-width: 1800px;
+    /* Center and scale the image nicely */
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
